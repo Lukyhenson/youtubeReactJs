@@ -21,7 +21,7 @@ export default class SearchBar extends Component {
         <div className="searchInput">
           <input className="input inputSearch"
                  onChange={event => this.onInputChange(event.target.value)} value={this.state.term} />
-          <button className="button is-dark">Search</button> 
+          <button className="button is-dark">Search here</button> 
         </div>
       </div>
     )
